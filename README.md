@@ -15,9 +15,11 @@ some other good sources for XSS:
 
 [Brutelogic Blog](http://brutelogic.com.br/blog/)
 
+[XSS Cheat Sheet](https://leanpub.com/xss)
+
 [Pgaijin66 XSS-Payloads](https://github.com/Pgaijin66/XSS-Payloads)
 
-[swisskyrepo PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20injection)
+[Swisskyrepo PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20injection)
 
 [OWASP XSS](https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet)
 
