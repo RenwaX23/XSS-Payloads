@@ -5,9 +5,9 @@ Most of them are public and everyone is familiar with it but there might be some
 
 You can use them to bypass WAF and find XSS vulnerabilities, i will try to update the list as possible.
 
-Some of the payloads belong to me but i collected most of them and they have real authors.
+I collected most of them and they have real authors.
 
-some other good sources for XSS:
+Other good sources for XSS:
 
 [HTML5 Security Cheatsheet](https://html5sec.org/)
 
