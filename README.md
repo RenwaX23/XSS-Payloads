@@ -13,6 +13,8 @@ Other good sources for XSS:
 
 [XSS Payloads Twitter](https://twitter.com/xsspayloads)
 
+[AwesomeXSS](https://github.com/s0md3v/AwesomeXSS)
+
 [Brutelogic Blog](http://brutelogic.com.br/blog/)
 
 [XSS Cheat Sheet](https://leanpub.com/xss)
