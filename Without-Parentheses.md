@@ -1,7 +1,7 @@
 # XSS Without parentheses () 
 
 
-### This repo contains XSS payload that doesn't require parentheses, collected from tweets, blogs...
+### This repo contains XSS payloads that doesn't require parentheses, collected from tweets, blogs...
 ### All the POC's are alert box with number 23
 
 ---
