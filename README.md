@@ -8,6 +8,8 @@ I collected most of them and they have real authors, i can't remember where i go
 
 Other good sources for XSS:
 
+[PORTSWIGGER XSS cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
+
 [HTML5 Security Cheatsheet](https://html5sec.org/)
 
 [XSS Payloads Twitter](https://twitter.com/xsspayloads)
