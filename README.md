@@ -6,6 +6,8 @@ You can use them to bypass WAF and find XSS vulnerabilities, i will try to updat
 
 I collected most of them and they have real authors, i can't remember where i got each one of them so i can give credit sorry. If you own any payload want to be mentioned or removed just ping me on Twitter.
 
+**Payloads.txt** is no longer updated and most of the payloads are outdated, please refer to [PORTSWIGGER XSS cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet) for best XSS payloads
+
 Other good sources for XSS:
 
 [PORTSWIGGER XSS cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
