@@ -439,13 +439,13 @@ Using Prorotype Pollution [PP Gadgets Repo](https://github.com/BlackFan/client-s
 
 ---
 
-DOMPurify Remove [Parrot](https://twitter.com/parrot409)
+DOMPurify Bypass [Parrot](https://twitter.com/parrot409)
 
     delete DOMPurify.isSupported
 
 ---
 
-DOMPurify Remove [hakatashi](https://hackmd.io/@hakatashi/HkgG02U4t)
+DOMPurify Bypass [hakatashi](https://hackmd.io/@hakatashi/HkgG02U4t)
 
     delete document.implementation.__proto__.createHTMLDocument
 
