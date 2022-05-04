@@ -68,7 +68,7 @@ Only Chrome [Garethheyes](http://www.thespanner.co.uk/2012/05/01/xss-technique-w
 
 ----
 
-[h43z](https://twitter.com/h43z)
+Only Firefox [h43z](https://twitter.com/h43z)
 
     throw onerror=eval,SyntaxError`alert\x2823\x29` 
 
