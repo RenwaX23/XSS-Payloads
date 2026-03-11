@@ -22,6 +22,10 @@ Other good sources for XSS:
 
 [XSS Cheat Sheet](https://leanpub.com/xss)
 
+[XSS Filter Bypass](https://github.com/Edr4/XSS-Bypass-Filters)
+
+[xss filter bypass](https://github.com/masatokinugawa/filterbypass) by Masato Kinugawa
+
 [Pgaijin66 XSS-Payloads](https://github.com/Pgaijin66/XSS-Payloads)
 
 [Swisskyrepo PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20injection)
